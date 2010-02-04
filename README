@@ -1,0 +1,19 @@
+# Installation
+
+Installation is easy. Either way you have to activate the plugin in your ProjectConfiguration and run `symfony plugins:publish-assets`. Done.
+
+## Local copy
+
+Copy the content downloaded into plugins/sfjQueryUIBackendThemePlugin of your project directory.
+
+## Using git submodule
+
+Use the following command from your project root directory.
+
+* `git submodule add git://github.com/havvg/sfjQueryUIBackendThemePlugin.git plugins/sfjQueryUIBackendThemePlugin`
+* `git submodule init`
+* `git submodule update`
+
+# Usage
+
+In order to have this theme in use for your backend module, simply add the provided CSS file to your `view.yml` e.g. `stylesheets:    [/sfjQueryUIBackendThemePlugin/css/jquery-ui.css]`.
